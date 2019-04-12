@@ -14,10 +14,10 @@ print(" -------------- ENTRY AT " + str(localTime) + " ---------------- ")
 # ------ Twitter Scraper("StringA", .. ,"StringC", "LX" or "ML" sentAnalysis types)
 def ScrapeTwitter(SubjectA, SubjectB, SubjectC, SentMethod):
     #region - - - - - Twitter API Credentials - - - - - 
-    consumer_key = "HX7LWWyl8dSCE9E8KJFZtCJWf"
-    consumer_secret = "6LI7LM3xOX0QRenF3jZ13Kl66yf7wkWCkdZBvqi5J7hcaMmI5D"
-    access_token = "964240989085929475-y73iQUuBlBn9Olv53nbuakOblUtgmZP"
-    access_token_secret = "Q7vrB6ODzPUBThWJwKVeaj0HBE9OF56ajg6UAAfgQFfnC"
+    consumer_key = "GenerateYourOwnKey"
+    consumer_secret = "SuperSecret"
+    access_token = "an-obscenely-large-number"
+    access_token_secret = "an-obscenely-large-SuperSecret-number"
 
     # - - - Accesssing twitter via Tweepy
     auth  = tweepy.OAuthHandler(consumer_key, consumer_secret)
